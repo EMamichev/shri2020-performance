@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'OpenSansLight';
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+    url('../assets/opensanslight.woff2') format('woff2'),
+    url('../assets/opensanslight.woff') format('woff'),
+    url('../assets/opensanslight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSansReg';
+  src: local('Open Sans'), local('OpenSans'),
+    url('../assets/opensans.woff2') format('woff2'),
+    url('../assets/opensans.woff') format('woff'),
+    url('../assets/opensans.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 .owl-carousel .owl-wrapper:after {
   content: '.';
   display: block;
@@ -130,17 +149,6 @@ menu,
 nav,
 section {
   display: block;
-}
-
-@font-face {
-  font-family: OpenSansReg;
-  src: url('../assets/OpenSans-Regular.ttf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: OpenSansLight;
-  src: url('../assets/OpenSans-Light.ttf');
 }
 
 body {
