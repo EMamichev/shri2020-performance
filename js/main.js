@@ -338,7 +338,6 @@ document.addEventListener(
   'DOMContentLoaded',
   function () {
     const buttonsContainer = document.querySelector('.buttons-wrap');
-    const buttonsContainer = document.querySelector('.buttons-wrap');
     const fridgeInfoContainer = document.querySelector(
       '.card_size_m:nth-child(8) .card-description'
     );
@@ -346,9 +345,6 @@ document.addEventListener(
       const confirmPurchaseButton = document.querySelector(
         '.buttons-wrap .button_yellow'
       );
-      buttonsContainer.innerHTML =
-        '<button class="button button_yellow" type="button">Да</button>' +
-        '<button class="button">Нет</button>';
       const purchaseListContainer = document.createElement('div');
       const purchaseListTitle = document.createElement('p');
       const purchaseList = document.createElement('ol');
